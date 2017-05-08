@@ -1,0 +1,3 @@
+<templateSet group="AngularJS ">
+  <template name="$lj" value="console.log('\n\n*************************** ejw - $SELECTION$ ***************************:\n $SELECTION$ : - ', angular.toJson($SELECTION$, true) + '\n\n');" description="console log with stringified object" toReformat="false" toShortenFQNames="true" />
+</templateSet>

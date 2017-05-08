@@ -1,0 +1,22 @@
+<templateSet group="JavaScript">
+  <template name="$l" value="console.log('\n\n*************************** ejw - $SELECTION$ ***************************:\n $SELECTION$ : - ', $SELECTION$, '\n\n');" description="console log with variable" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$lj" value="console.log('\n\n*************************** ejw - $SELECTION$ ***************************:\n $SELECTION$ : - ', JSON.stringify($SELECTION$, null, 2) + '\n\n');" description="console log with stringified object" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$lm" value="console.log('ejw: $SELECTION$');" description="console log just message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$lx" value="console.log('$END$');" description="console log blank" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
