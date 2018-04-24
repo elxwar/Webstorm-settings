@@ -2,17 +2,18 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="template" type="JSON" />
-      <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".ruby-gemset" type="PLAIN_TEXT" />
       <mapping pattern=".ruby-version" type="PLAIN_TEXT" />
-      <mapping pattern="s3headers" type="PLAIN_TEXT" />
-      <mapping pattern="ruby-gemset" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="s3headers" type="PLAIN_TEXT" />
       <mapping pattern=".surgeignore" type="PLAIN_TEXT" />
-      <mapping ext="overrides" type="PLAIN_TEXT" />
+      <mapping pattern="_redirects" type="PLAIN_TEXT" />
+      <mapping pattern="ruby-gemset" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
-      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="overrides" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
